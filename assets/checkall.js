@@ -1,0 +1,1 @@
+!function(){function e(e,t){t=$.extend({selector:":checkbox"},t);var n=this;this.element=$(e);var c=this.element.closest("table");this.element.change(function(){c.find("tbody "+t.selector).prop("checked",this.checked)}),c.on("change",t.selector,function(){var e=c.find(t.selector);n.element.val(e.serialize()).trigger("update")})}ControlManager.register("checkAll",e)}();
