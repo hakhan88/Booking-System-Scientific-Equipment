@@ -1,7 +1,14 @@
 # Description
 
 This application is build using using php with Codeigniter framework. 
-The pupose of this application is to
+The pupose of this application is to provide booking functionality for the clients to book scientific equipments
+
+## Codeigniter Setup
+
+1. deploy this repo in the htdoc folder in your xampp setup
+2. setup the DB and run the sql as below
+3. open application/config/config.php and update $config['base_url'] to the name of the folder you created in the htdoc
+4. open application/config/database.php and 'database' to the name of the DB you created in the phpmyadmin
 
 ## SQL Setup
 
@@ -114,7 +121,3 @@ Run the following SQL for the db you created:
     ALTER TABLE `users`
     MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
     COMMIT;
-
-## Codeigniter Setup
-
-
